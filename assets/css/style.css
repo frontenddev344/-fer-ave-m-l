@@ -7,7 +7,7 @@ body,
 
 :root {
 	--main-color: #21bddd;
-	--bg-light: #21bddd6b;
+	--bg-light: whitesmoke;
 	--font-color: #fff;
 }
 
@@ -53,7 +53,7 @@ p {
 
 a.common_btn {
 	text-decoration: none;
-	padding: 6px 18px;
+	padding: 8px 24px;
 	color: var(--font-color);
 	background: var(--main-color);
 	border: 1px solid transparent;
@@ -202,10 +202,15 @@ h3 {
     border: 1px solid;
 }
 
+.luxhotel_card {
+	transition: all 0.5s;
+    text-align: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
-
-
-
+.luxhotel_card:hover img {
+   filter: grayscale();
+}
 
 
 
@@ -404,6 +409,20 @@ footer .footer_right ul li a:hover {
     z-index: -1;
 }
 .luxhotel_card img {
-    min-height: 500px;
+	min-height: 490px;
     object-fit: cover;
+	transition: all 0.5s;
+}
+.bottom_text_section{
+	background-color:var(--bg-light);
+}
+.luxury_hotels_inner {
+    border: 1px solid #21bddd;
+}
+.luxhotel_card_further img {
+    min-height: 450px;
+    object-fit: cover;
+}
+.content_card {
+    padding: 20px 10px;
 }
