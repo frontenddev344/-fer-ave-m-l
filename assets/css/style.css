@@ -439,3 +439,6 @@ footer .footer_right ul li a:hover {
 .why_choose_resort img {
     filter: unset;
 }
+.content_card ul {
+    text-align: start;
+}
