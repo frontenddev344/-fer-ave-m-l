@@ -426,3 +426,16 @@ footer .footer_right ul li a:hover {
 .content_card {
     padding: 20px 10px;
 }
+.before_banner_section
+{
+	background-color: var(--bg-light);
+}
+.why_choose_resort p{
+	color: #000;
+}
+.why_choose_resort h3{
+	color: #000;
+}
+.why_choose_resort img {
+    filter: unset;
+}
