@@ -3,13 +3,12 @@
 		text-align: center;
 	}
 
-	.footer_right ul {
-		margin-bottom: 0;
-		margin-left: 40px;
+	a.logo img {
+		max-width: 250px;
 	}
 
 	.footer_right {
-		margin-top: 30px;
+		margin-top: 0px;
 		display: flex;
 		justify-content: center;
 	}
@@ -58,7 +57,7 @@
 		display: inline-block;
 		position: absolute;
 		right: 15px;
-		top: 20px;
+		top: 5px;
 		padding-top: 0.2rem;
 		z-index: 2;
 	}
@@ -134,7 +133,7 @@
 @media (max-width: 767px) {
 
 	a.logo img {
-		max-width: 120px;
+		max-width: 240px;
 	}
 
 	.nav-title a svg {
