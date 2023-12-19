@@ -130,7 +130,7 @@ header {
 	width: 100%;
 	z-index: 999;
 	padding: 20px 0px;
-  background-color: #00000080;
+    background-color: #000;
   border-bottom: 1px solid #fff; 
 }
 
@@ -184,7 +184,7 @@ header {
 
 
 a.logo img {
-	max-width: 150px;
+    max-width: 300px;
 }
 
 h3 {
@@ -320,9 +320,8 @@ h3 {
 }
 
 footer {
-	background-color: var(--bg-dark);
+    background-color: #000;
 }
-
 .footer_right h2 {
 	color: var(--main-color);
 }
@@ -350,8 +349,8 @@ footer .footer_right ul li a:hover {
 }
 
 .lower_footer {
-	background: var(--bg-dark);
-	border-top: 1px solid #fff;
+    background: #000;
+    border-top: 1px solid #fff;
 }
 
 .lower_footer p {
