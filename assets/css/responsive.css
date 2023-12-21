@@ -3,10 +3,6 @@
 		text-align: center;
 	}
 
-	a.logo img {
-		max-width: 250px;
-	}
-
 	.footer_right {
 		margin-top: 0px;
 		display: flex;
@@ -57,7 +53,7 @@
 		display: inline-block;
 		position: absolute;
 		right: 15px;
-		top: 5px;
+		top: 25px;
 		padding-top: 0.2rem;
 		z-index: 2;
 	}
@@ -133,7 +129,10 @@
 @media (max-width: 767px) {
 
 	a.logo img {
-		max-width: 240px;
+		max-width: 110px;
+	}
+	.footer_left a img {
+		max-width: 130px;
 	}
 
 	.nav-title a svg {
@@ -151,6 +150,13 @@
 	h3 {
 		font-size: 22px;
 	}
+	.sub_banner_content {
+		padding: 0px 16px;
+	}
+	.content_card ul {
+		display: block;;
+	}
+
 }
 
 @media (max-width: 575px) {

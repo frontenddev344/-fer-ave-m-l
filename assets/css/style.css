@@ -46,7 +46,10 @@ p {
 	color: #555555;
 }
 
-
+.page_home_banner  img
+{
+	height: 700px!important;
+}
 
 .section {
 	padding: 80px 0;
@@ -185,7 +188,7 @@ header {
 
 
 a.logo img {
-	max-width: 300px;
+    max-width: 150px;
 }
 
 h3 {
@@ -397,6 +400,7 @@ footer .footer_right ul li a:hover {
 }
 
 .luxhotel_card img {
+	width: 100%;
 	min-height: 490px;
 	object-fit: cover;
 	transition: all 0.5s;
@@ -435,6 +439,8 @@ footer .footer_right ul li a:hover {
 
 .content_card ul {
 	text-align: start;
+	display: flex;
+    justify-content: space-between;
 }
 
 input.form-control.sub_btn {
@@ -462,7 +468,7 @@ input.form-control.sub_btn:hover {
 
 
 .footer_left a img {
-    max-width: 300px;
+    max-width: 150px;
 }
 
 .after_banner_section.section {
