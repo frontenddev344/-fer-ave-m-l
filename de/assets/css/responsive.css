@@ -370,6 +370,7 @@
 		margin: 0px !important;
 		margin-top: 13px !important;
 		color: #fff;
+		font-size: 13px;
 	}
 
 	p.rating-text b {
@@ -384,6 +385,7 @@
 	.notpad p {
 		padding-bottom: 0;
 		color: #fff;
+		font-size: 13px;
 	}
 
 	.main-rate-star {
