@@ -52,7 +52,6 @@
 		right: 70px;
 
 	}
-
 	.nav {
 		padding: 1rem;
 	}
@@ -139,7 +138,6 @@
 	a.logo img {
 		max-width: 110px;
 	}
-
 	.footer_left a img {
 		max-width: 130px;
 	}
@@ -159,14 +157,11 @@
 	h3 {
 		font-size: 22px;
 	}
-
 	.sub_banner_content {
 		padding: 0px 16px;
 	}
-
 	.content_card ul {
-		display: block;
-		;
+		display: block;;
 	}
 
 }

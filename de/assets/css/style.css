@@ -46,8 +46,9 @@ p {
 	color: #555555;
 }
 
-.page_home_banner img {
-	height: 700px !important;
+.page_home_banner  img
+{
+	height: 700px!important;
 }
 
 .section {
@@ -187,7 +188,7 @@ header {
 
 
 a.logo img {
-	max-width: 150px;
+    max-width: 150px;
 }
 
 h3 {
@@ -218,7 +219,7 @@ h3 {
 }
 
 .luxury_hotels_inner {
-	border: 1px solid #22bddd;
+    border: 1px solid #22bddd;
 }
 
 
@@ -287,9 +288,9 @@ h3 {
 
 .footer_right ul {
 	display: flex;
-	padding-top: 10px;
-	list-style: none;
-	margin-bottom: 0;
+    padding-top: 10px;
+    list-style: none;
+    margin-bottom: 0;
 }
 
 .footer_right ul li {
@@ -439,7 +440,7 @@ footer .footer_right ul li a:hover {
 .content_card ul {
 	text-align: start;
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
 }
 
 input.form-control.sub_btn {
@@ -449,6 +450,7 @@ input.form-control.sub_btn {
 	color: var(--font-color);
 	border: 1px solid transparent;
 	transition: all 0.5s;
+	text-transform: capitalize;
 }
 
 input.form-control.sub_btn:hover {
@@ -467,37 +469,32 @@ input.form-control.sub_btn:hover {
 
 
 .footer_left a img {
-	max-width: 150px;
+    max-width: 150px;
 }
 
 .after_banner_section.section {
-	background: whitesmoke;
+    background: whitesmoke;
 }
-
-.luxury_hotels_inner img {
-	transition: all 0.5s;
+.luxury_hotels_inner img{
+transition: all 0.5s;
 }
-
-.luxury_hotels_inner img:hover {
+.luxury_hotels_inner img:hover{
 	filter: grayscale(1);
-}
+	}
 
-.right_side_first {
-	background: whitesmoke;
-	padding: 40px;
-	border-radius: 5px;
-}
-
-.contact_us.section {
-	border-top: 1px solid #21bddd61;
-}
-
-.language-flag img {
-	max-width: 28px;
-	height: 28px;
-	border-radius: 50%;
-}
-
-.language-flag {
-	margin: 0 0 0 24px;
-}
+	.right_side_first {
+		background: whitesmoke;
+		padding: 40px;
+		border-radius: 5px;
+	}
+	.contact_us.section {
+		border-top: 1px solid #21bddd61;
+	}
+	.language-flag img {
+		max-width: 28px;
+		height: 28px;
+		border-radius: 50%;
+	}
+	.language-flag {
+		margin: 0 0 0 24px;
+	}
